@@ -1,7 +1,6 @@
 export const siteConfig = {
-  title: 'Next.js + Tailwind CSS + TypeScript Starter',
+  title: 'Premium Website Design, Web Development & Visual Branding',
   description:
-    'A starter for Next.js, Tailwind CSS, and TypeScript with Absolute Import, Seo, Link component, pre-configured with Husky',
-  /** Without additional '/' on the end, e.g. https://theodorusclarence.com */
-  url: 'https://tsnext-tw.thcl.dev',
+    'Where sophistication meets digital craftsmanship. Dive into a realm of elite website design, masterful web development, and iconic visual branding. For brands that seek distinction and elegance',
+  url: 'https://yourdesigner.co',
 };
