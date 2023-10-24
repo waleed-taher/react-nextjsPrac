@@ -5,7 +5,7 @@ import '@/styles/globals.css';
 import '@/styles/colors.css';
 
 import Footer from '@/components/layout/Footer/Footer';
-import Navbar from '@/components/layout/Navbar/Navbar';
+import Navbar from '@/components/layout/Navbar';
 
 import { siteConfig } from '@/constant/config';
 import QueryProvider from '@/Providers/QueryProvider';
@@ -51,8 +51,8 @@ export default function RootLayout({
         <QueryProvider>
           <Navbar />
           {children}
+          <Footer />
         </QueryProvider>
-        <Footer />
       </body>
     </html>
   );

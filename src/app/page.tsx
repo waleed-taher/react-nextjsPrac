@@ -1,9 +1,23 @@
-import Home from '@/app/(Home)/page';
+import DiscoverMore from '@/components/HomePage/DiscoverMore';
+import HeroSection from '@/components/HomePage/HeroSection';
+import HowitWork from '@/components/HomePage/HowitWork';
+import NewArrivals from '@/components/HomePage/NewArrivals';
+import Promo from '@/components/HomePage/Promo';
+import Testimonials from '@/components/HomePage/Testimonials';
 
-export default function HomePage() {
+export default function Home() {
   return (
     <main>
-      <Home />
+      <HeroSection />
+      <DiscoverMore />
+      <NewArrivals />
+      <HowitWork />
+      <Promo />
+      <NewArrivals />
+      <Promo />
+      <NewArrivals />
+      <Promo />
+      <Testimonials />
     </main>
   );
 }
