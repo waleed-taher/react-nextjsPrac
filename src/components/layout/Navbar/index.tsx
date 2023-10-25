@@ -20,7 +20,7 @@ const Navbar = () => {
           <div className='flex flex-1 items-center lg:hidden'>
             <button
               onClick={() => setMobMenu(!mobMenu)}
-              className='flex items-center justify-center rounded-lg p-2.5 text-neutral-700 focus:outline-none dark:text-neutral-300'
+              className='flex items-center justify-center rounded-lg p-2.5 text-neutral-700 focus:outline-none '
             >
               <Menu />
             </button>
@@ -32,7 +32,7 @@ const Navbar = () => {
                 alt='Logo'
                 width={140}
                 height={40}
-                className='w-auto max-sm:h-8 sm:h-10'
+                className='h-auto w-auto max-sm:h-8 sm:h-10'
               />
             </Link>
           </div>
