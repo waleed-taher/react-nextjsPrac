@@ -30,15 +30,6 @@ const MobileMenu = () => {
                   height='46'
                   decoding='async'
                   data-nimg='1'
-                  className='block h-8 w-auto dark:hidden sm:h-10'
-                  src={APP_IMAGES.logo}
-                />
-                <Image
-                  alt='Logo-Light'
-                  width='162'
-                  height='46'
-                  decoding='async'
-                  data-nimg='1'
                   className='hidden h-8 w-auto dark:block sm:h-10'
                   src={APP_IMAGES.logo}
                 />
